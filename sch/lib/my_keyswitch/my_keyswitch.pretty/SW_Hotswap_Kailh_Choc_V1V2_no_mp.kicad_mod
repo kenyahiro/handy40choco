@@ -1,7 +1,7 @@
 (footprint "SW_Hotswap_Kailh_Choc_V1V2_no_mp"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap")
 	(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "00be421a-b30a-416a-bfa9-5fcc37ecd093")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,6 +52,56 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -7.6 -7.6)
+		(end -7.6 7.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "939d6536-1051-4447-a253-d80e6e7e7a25")
+	)
+	(fp_line
+		(start -7.6 7.6)
+		(end 7.6 7.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd243a7d-27ce-4c42-ab93-4552d168d9cc")
+	)
+	(fp_line
+		(start -5 -7.6)
+		(end -7.6 -7.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d937f6f-9e8d-4cb7-a176-2813869230ee")
+	)
+	(fp_line
+		(start 7.6 -7.6)
+		(end 5 -7.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47c72a12-a08e-43c7-a413-76e102e82059")
+	)
+	(fp_line
+		(start 7.6 7.6)
+		(end 7.6 -7.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ed9983e-64b0-4cbd-9061-475b1156a237")
+	)
 	(fp_line
 		(start -2.416 -7.409)
 		(end -1.479 -8.346)
@@ -343,56 +381,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "65c3a765-59d8-4899-bd16-a4ee0c95f618")
-	)
-	(fp_line
-		(start -7.6 -7.6)
-		(end -7.6 7.6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "939d6536-1051-4447-a253-d80e6e7e7a25")
-	)
-	(fp_line
-		(start -7.6 7.6)
-		(end 7.6 7.6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bd243a7d-27ce-4c42-ab93-4552d168d9cc")
-	)
-	(fp_line
-		(start -5 -7.6)
-		(end -7.6 -7.6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2d937f6f-9e8d-4cb7-a176-2813869230ee")
-	)
-	(fp_line
-		(start 7.6 -7.6)
-		(end 5 -7.6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "47c72a12-a08e-43c7-a413-76e102e82059")
-	)
-	(fp_line
-		(start 7.6 7.6)
-		(end 7.6 -7.6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5ed9983e-64b0-4cbd-9061-475b1156a237")
 	)
 	(fp_line
 		(start -7.25 -7.25)
@@ -1103,26 +1091,27 @@
 	(pad "1" smd roundrect
 		(at -3.5 -6)
 		(size 2.55 2.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "8bb440e5-620a-41bd-ba9c-b0d8ca240a46")
 	)
 	(pad "2" smd roundrect
 		(at 8.5 -3.8)
 		(size 2.55 2.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "042dcb88-e62f-468f-b9e2-c4095ce365ed")
 	)
-	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/my_keyswitch/my_keyswitch.pretty/choc.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 6 -3.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
