@@ -60207,8 +60207,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "handy40choco"
-		(at 108.5 88 0)
+	(gr_text "handy40choco rev.1"
+		(at 100 88 0)
 		(layer "F.SilkS")
 		(uuid "5f94a53d-bae8-4e71-9e1f-5d66783b809e")
 		(effects
