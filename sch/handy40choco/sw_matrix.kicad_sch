@@ -3276,12 +3276,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 101.6 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "000ab97d-05f8-4ddb-94a0-6de244e7f821")
 		(property "Reference" "SW21"
 			(at 34.29 93.98 0)
@@ -4580,12 +4580,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 124.46 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "350f8a9d-1153-4cca-9434-db6f11ca8a32")
 		(property "Reference" "SW31"
 			(at 34.29 116.84 0)
@@ -6576,12 +6576,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 55.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c6a97eb-8e50-4562-82e9-46241f83a783")
 		(property "Reference" "SW1"
 			(at 34.29 48.26 0)
@@ -9304,12 +9304,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1a9c0f8-81c4-47b3-ab75-2c8eb56a92f9")
 		(property "Reference" "SW11"
 			(at 34.29 71.12 0)
