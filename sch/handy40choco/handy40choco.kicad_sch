@@ -1940,7 +1940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+		(property "Footprint" "my_keyswitch:my_PinHeader_1x20_P2.54mm_Vertical_p0.85"
 			(at 58.42 60.96 0)
 			(effects
 				(font
