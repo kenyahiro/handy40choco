@@ -7146,6 +7146,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 20.32 78.74)
+		(size 34.29 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62c8be62-3ece-4475-a968-8b2011f2d60b")
+		(property "Sheetname" "universal area"
+			(at 20.32 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "universal_area.kicad_sch"
+			(at 20.32 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "handy40choco-mcu-pico"
+				(path "/c7705321-b11d-4074-930b-69ce3166659a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
